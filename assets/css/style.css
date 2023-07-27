@@ -12,6 +12,12 @@ nav{
 
 /* #region main */
 
+/* #sidebar */
+
+#sidebar{
+    width: 68px;
+}
+
 #main_page{
     height: calc(100vh - 70px);
     overflow: auto;
@@ -19,7 +25,7 @@ nav{
 
 /* #top */
 #top{
-    width: 100;
+    width: calc(100vw - 68px);
 }
 
 /* #endregion main */
@@ -31,7 +37,17 @@ nav{
 
 @media (min-width: 768px) {}
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+    #sidebar{
+        width: 150px;
+    }
+
+    #top{
+        width: calc(100vw - 150px);
+    }
+    
+}
 
 @media (min-width: 1200px) {}
 
