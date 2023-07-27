@@ -2,6 +2,10 @@ body{
     overflow: hidden;
 }
 
+/* #region colors */
+
+/* #endregion colors */
+
 /* #region header */
 
 nav{
@@ -54,6 +58,7 @@ nav{
 @media (min-width: 1400px) {}
 
 /* #region debug */
+
 .debug #sidebar{
     height: calc(100vh - 70px);
     background-color: lightcoral;
