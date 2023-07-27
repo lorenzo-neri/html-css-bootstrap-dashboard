@@ -59,20 +59,19 @@ nav{
     background-color: lightcoral;
 }
 
-.debug .order-lg-0{
+#next_class{
     height: 520px;
     background-color: lightgreen;
 }
-
-.debug .order-lg-1{
-    height: 200px;
-    background-color: lightpink;
-}
-.debug .order-lg-2{
+#faq{
     height: 250px;
     background-color: lightgoldenrodyellow;
 }
-.debug .order-lg-3{
+#todo{
+    height: 200px;
+    background-color: lightpink;
+}
+#graphic{
     height: 650px;
     background-color: lightseagreen;
 }
