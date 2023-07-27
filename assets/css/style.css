@@ -1,4 +1,9 @@
+body{
+    overflow: hidden;
+}
+
 /* #region header */
+
 nav{
     height: 70px;
 }
@@ -7,4 +12,34 @@ nav{
 
 /* #region main */
 
+#main_page{
+    height: calc(100vh - 70px);
+    overflow: auto;
+}
+
+/* #top */
+#top{
+    width: 100;
+}
+
 /* #endregion main */
+
+/* #region media querries */
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
+
+/* #region debug */
+.debug #sidebar{
+    height: calc(100vh - 70px);
+    background-color: lightcoral;
+}
+/* #endregion debug */
