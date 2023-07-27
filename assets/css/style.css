@@ -1,14 +1,17 @@
-body{
+body {
     overflow: hidden;
 }
 
 /* #region colors */
+:root {
+    --ln-sidebar: #051f35;
+}
 
 /* #endregion colors */
 
 /* #region header */
 
-nav{
+nav {
     height: 70px;
 }
 
@@ -18,17 +21,25 @@ nav{
 
 /* #sidebar */
 
-#sidebar{
+#sidebar {
     width: 68px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: var(--ln-sidebar);
 }
 
-#main_page{
+#sidebar .container {
+    height: 100%;
+}
+
+/* #main_page */
+
+#main_page {
     height: calc(100vh - 70px);
     overflow: auto;
 }
 
 /* #top */
-#top{
+#top {
     width: calc(100vw - 68px);
 }
 
@@ -43,14 +54,14 @@ nav{
 
 @media (min-width: 992px) {
 
-    #sidebar{
+    #sidebar {
         width: 150px;
     }
 
-    #top{
+    #top {
         width: calc(100vw - 150px);
     }
-    
+
 }
 
 @media (min-width: 1200px) {}
@@ -59,25 +70,29 @@ nav{
 
 /* #region debug */
 
-.debug #sidebar{
+.debug #sidebar {
     height: calc(100vh - 70px);
     background-color: lightcoral;
 }
 
-#next_class{
+#next_class {
     height: 520px;
     background-color: lightgreen;
 }
-#faq{
+
+#faq {
     height: 250px;
     background-color: lightgoldenrodyellow;
 }
-#todo{
+
+#todo {
     height: 200px;
     background-color: lightpink;
 }
-#graphic{
+
+#graphic {
     height: 650px;
     background-color: lightseagreen;
 }
+
 /* #endregion debug */

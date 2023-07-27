@@ -23,7 +23,7 @@
 
     </head>
 
-    <body class="debug">
+    <body class>
 
         <header>
             <nav class="navbar navbar-expand bg-body-tertiary">
@@ -42,7 +42,10 @@
                             id="searchbar">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </span>
-                        <input type="search" class="form-control me-2 bg-light border border-start-0 shadow-none" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="searchbar">
+                        <input type="search"
+                            class="form-control me-2 bg-light border border-start-0 shadow-none"
+                            placeholder="Prova a cercare: Lezioni di Laravel"
+                            aria-label="Search" aria-describedby="searchbar">
                     </form>
                     <!-- /searchbar -->
 
@@ -90,8 +93,39 @@
         <main class="d-flex">
 
             <section id="sidebar">
+                <div
+                    class="container text-light d-flex flex-column justify-content-between">
+                    <!-- sidebar top -->
+                    <div class="row g-3 pt-4 flex-column">
+                        <div
+                            class="col-12 d-flex justify-content-center align-items-center gap-3">
+                            <i class="fa-solid fa-home"></i>
+                            <div class="d-none d-lg-block">Home</div>
+                        </div>
+                        <div
+                            class="col-12 d-flex justify-content-center align-items-center gap-3">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <div class="d-none d-lg-block">Stats</div>
 
+                        </div>
+                        <div
+                            class="col-12 d-flex justify-content-center align-items-center gap-3">
+                            <i class="fa-solid fa-signal"></i>
+                            <div class="d-none d-lg-block">Signals</div>
+                        </div>
+                    </div>
+
+                    <!-- sidebar bottom -->
+
+                    <div
+                        class="col-12 d-flex justify-content-center align-items-center gap-3 pb-4">
+                        <i class="fa-solid fa-gear"></i>
+                        <div class="d-none d-lg-block">Admin</div>
+                    </div>
+
+                </div>
             </section>
+
             <!-- /#sidebar -->
 
             <section id="main_page">
