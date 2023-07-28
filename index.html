@@ -135,10 +135,59 @@
                     <div class="container-fluid py-3 mx-0 w-100">
                         <div class="row flex-wrap g-4">
                             <div class="col-12 order-md-5 py-1 col-md">
-                                <div class="d-flex align-items-center gap-4">
+                                <div class="d-flex align-items-center gap-3">
                                     <div class="fw-semibold">Nuovo Studente</div>
-                                    <div class="btn text-light border-light"><i
-                                            class="fa-solid fa-plus"></i></div>
+                                    <a
+                                        class="btn btn-primary p-3 py-1 border-light fs-5"
+                                        data-bs-toggle="offcanvas"
+                                        href="#offcanvas" role="button"
+                                        aria-controls="offcanvas">
+                                        +
+                                    </a>
+
+                                    <!------ .offcanvas ------>
+                                    <div class="offcanvas offcanvas-end"
+                                        tabindex="-1" id="offcanvas"
+                                        aria-labelledby="offcanvasLabel">
+                                        <div class="offcanvas-header">
+                                            <h5 class="offcanvas-title"
+                                                id="offcanvasLabel">Inserisci un
+                                                nuovo studente</h5>
+                                            <!-- /title -->
+                                            <button type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="offcanvas"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div>Nome</div>
+                                                    <div
+                                                        class="input-group mb-3 mt-1">
+                                                        <input type="text"
+                                                            class="form-control"
+                                                            aria-label="Username"
+                                                            aria-describedby="basic-addon1">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div>Cognome</div>
+                                                    <div
+                                                        class="input-group mb-3 mt-1">
+                                                        <input type="text"
+                                                            class="form-control"
+                                                            aria-label="Username"
+                                                            aria-describedby="basic-addon1">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!------ /.offcanvas ------>
+
                                 </div>
                             </div>
                             <div class="col-12 py-1 col-md">
@@ -725,12 +774,16 @@
                                         </div>
                                         <ul
                                             class="list-group list-group-flush">
-                                            <li class="list-group-item">Gennaio: 1200</li>
-                                            <li class="list-group-item">Febbraio: 800</li>
-                                            <li class="list-group-item">Marzo: 1500</li>
+                                            <li class="list-group-item">Gennaio:
+                                                1200</li>
+                                            <li class="list-group-item">Febbraio:
+                                                800</li>
+                                            <li class="list-group-item">Marzo:
+                                                1500</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#" class="card-link">Visualizza report approfondito</a>
+                                            <a href="#" class="card-link">Visualizza
+                                                report approfondito</a>
                                         </div>
 
                                     </div>
@@ -749,7 +802,6 @@
             <!-- /#main_page -->
 
         </main>
-
         <!-- /main -->
 
         <script
