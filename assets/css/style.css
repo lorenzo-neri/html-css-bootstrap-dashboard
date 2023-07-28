@@ -36,11 +36,7 @@ nav {
 #main_page {
     height: calc(100vh - 70px);
     overflow: auto;
-}
-
-/* #top */
-#top {
-    width: calc(100vw - 68px);
+    width: 100%;
 }
 
 /* #endregion main */
@@ -56,10 +52,6 @@ nav {
 
     #sidebar {
         width: 150px;
-    }
-
-    #top {
-        width: calc(100vw - 150px);
     }
 
 }
