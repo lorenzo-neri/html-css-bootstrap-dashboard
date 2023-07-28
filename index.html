@@ -96,31 +96,31 @@
                 <div
                     class="container text-light d-flex flex-column justify-content-between">
                     <!-- sidebar top -->
-                    <div class="row g-4 pt-4 flex-column">
+                    <div class="row g-2 pt-4 flex-column">
                         <div
-                            class="col-12 d-flex justify-content-center align-items-center gap-3">
+                            class="col-12 d-flex justify-content-center align-items-center gap-3 link-offset-2-hover">
                             <i class="fa-solid fa-home"></i>
-                            <div class="d-none d-lg-block">Home</div>
+                            <span class="d-none d-lg-block">Home</span>
                         </div>
                         <div
                             class="col-12 d-flex justify-content-center align-items-center gap-3">
                             <i class="fa-solid fa-chart-simple"></i>
-                            <div class="d-none d-lg-block">Stats</div>
+                            <span class="d-none d-lg-block">Stats</span>
 
                         </div>
                         <div
                             class="col-12 d-flex justify-content-center align-items-center gap-3">
                             <i class="fa-solid fa-signal"></i>
-                            <div class="d-none d-lg-block">Signals</div>
+                            <span class="d-none d-lg-block">Signals</span>
                         </div>
                     </div>
 
                     <!-- sidebar bottom -->
 
                     <div
-                        class="col-12 d-flex justify-content-center align-items-center gap-3 pb-4">
+                        class="col-12 d-flex justify-content-center align-items-center gap-3 mb-4">
                         <i class="fa-solid fa-gear"></i>
-                        <div class="d-none d-lg-block">Admin</div>
+                        <span class="d-none d-lg-block">Admin</span>
                     </div>
 
                 </div>
@@ -137,7 +137,7 @@
                             <div class="col-12 order-md-5 py-1 col-md">
                                 <div class="d-flex align-items-center gap-3">
                                     <div class="fw-semibold">Nuovo Studente</div>
-                                    <a
+                                    <a id="btn_plus"
                                         class="btn btn-primary p-3 py-1 border-light fs-5"
                                         data-bs-toggle="offcanvas"
                                         href="#offcanvas" role="button"
@@ -283,7 +283,7 @@
                                                 </div>
                                                 <div class="col my-3">
                                                     <div class="btn btn-primary">Salva</div>
-                                                    <button type="reset" class="btn btn-warning">Svuota</button>
+                                                    <button type="reset" class="btn btn-warning ms-1">Svuota</button>
 
                                                 </div>
                                             </form>

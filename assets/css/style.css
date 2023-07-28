@@ -31,7 +31,30 @@ nav {
     height: 100%;
 }
 
+#sidebar i{
+    width: 1.8rem;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+#sidebar .col-12{
+    transition: .8s;
+}
+
+
+#sidebar .col-12:hover{
+background-color: rgba(255, 255, 255, 0.504);
+}
+
 /* #main_page */
+
+#btn_plus{
+    transition: .3s;
+}
+#btn_plus:hover{
+    background-color: white;
+    color: black;
+}
 
 #main_page {
     height: calc(100vh - 70px);
