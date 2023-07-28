@@ -75,22 +75,22 @@ nav {
     background-color: lightcoral;
 }
 
-#next_class {
+.debug #next_class {
     height: 520px;
     background-color: lightgreen;
 }
 
-#faq {
+.debug #faq {
     height: 250px;
     background-color: lightgoldenrodyellow;
 }
 
-#todo {
+.debug #todo {
     height: 200px;
     background-color: lightpink;
 }
 
-#graphic {
+.debug #graphic {
     height: 650px;
     background-color: lightseagreen;
 }
